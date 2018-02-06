@@ -1,7 +1,8 @@
 ■DocMatrixCreater.jarの使い方
 　■コマンドライン
-　　usages: java -jar DocMatrixCreater.jar [encoding]
-　　example: java -jar DocMatrixCreater.jar UTF-8
+　　usages: java -jar DocMatrixCreater.jar [encoding] [option]
+　　example: java -jar DocMatrixCreater.jar UTF-8 1
+　　※変数optionを指定した場合はTFIDFの値が規格化されます。
 
 　■入出力
 　　入出力はファイルで指定する。
